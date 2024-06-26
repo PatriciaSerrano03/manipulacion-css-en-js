@@ -6,3 +6,16 @@ body {
   font-family: sans-serif;
   color: white;
 }
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+}
+
+.box--red{
+  background-color: red;
+}
+.box--green{
+  background-color: green;
+}

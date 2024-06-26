@@ -9,8 +9,21 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>HOLA</h1>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat rerum pariatur iste nemo quos praesentium alias nostrum dolore magni? Provident magni incidunt harum officiis consequatur ad temporibus laboriosam hic illum! </p>
+   <div class="box box--red" id="box"></div>
+   <button id="button">Change Color</button>
+
+
+   <form id="form">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="nombre" placeholder="nombre">
+    <label for="gender-man">Man</label>
+    <input type="radio" name="gender" id="gender-man">
+    <label for="gender-woman">Woman</label>
+    <input type="radio" name="gender" id="gender-woman">
+    <input type="submit" value="Send">
+
+   </form>
+
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
